@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+div.prototipo {
+	margin-top: 50px;
+}
+#header {
+	text-align: center;
+	margin: 20px 0 20px 0;
+	border-bottom: solid 2px #ff9c00;
+}
+#footer {
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+h2, h3, h4 {
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+h2 {
+	font-size: 1.5em;
+	color: #1c7bbe;
+}
+h3, caption {
+	font-size: 1.3em;
+	color: #ff9c00;
+}
+h4 {
+	font-size: 1.1em;
+	color: #1c7bbe;
+}
+
+
+#menu {
+	border-left: dotted 1px #ff9c00;
+	padding-left: 10px;
+	font-family: "Courier New", Courier, monospace;
+}
+#menu ul li {
+	margin-bottom: 10px;
+	font-size: 1em;
+}
+#menu ul li ul li {
+	margin-bottom: 0;
+}
+#menu ul li, #menu ul li a {
+	color: #ff9c00;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#menu ul li ul li, #menu ul li ul li a {
+	color: #1c7bbe;
+	text-transform: lowercase;
+}
+#menu ul li ul li ul li, #menu ul li ul li  ul li a {
+	color: #666;
+}
+
+
+#breadcrumb, #breadcrumb a {
+	color: #999999;
+	font-size: x-small;
+}
+#breadcrumb.prototipo {
+	background-color:#39F;
+	color: #FFF;
+	padding: 5px;
+}
+#breadcrumb.prototipo a {
+	color: #FFF;
+}
+
+table tr td {
+	text-align: center;
+	vertical-align: top;
+}
+
+img.pantalla {
+	margin: 10px 0 10px 0;
+}
+img.foto {
+	padding: 2px;
+	border: #CCCCCC 1px solid;
+}
+
+p.center {
+	text-align: center;
+}
